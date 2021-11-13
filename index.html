@@ -253,12 +253,22 @@
                 required
               />
             </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input
+                id="number"
+                type="text"
+                name="Phone"
+                placeholder="Enter your number"
+                required
+              />
+            </div>
             <div class="input-select">
               <span class="details">Branch</span>
 
               <select name="Branch" id="Branch" required>
                 <option value="none" selected disabled hidden>Select</option>
-                <option value="AI">AD</option>
+                <option value="AD">AD</option>
                 <option value="CE">CE</option>
                 <option value="CS">CS</option>
                 <option value="EC">EC</option>
@@ -280,16 +290,7 @@
                 <option value="S7">S7</option>
               </select>
             </div>
-            <div class="input-box">
-              <span class="details">Phone Number</span>
-              <input
-                id="number"
-                type="text"
-                name="Phone"
-                placeholder="Enter your number"
-                required
-              />
-            </div>
+
             <div class="radio">
               <span class="details">Are you an IEEE member ?</span><br />
               <input
@@ -523,6 +524,8 @@
             text: "Your registration is sucessful !!",
             icon: "success",
             button: "Go Back",
+          }).then(function () {
+            window.location = "https://ieee.sjcetpalai.ac.in/";
           });
         }
       });
