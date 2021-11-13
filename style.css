@@ -2,11 +2,6 @@
   text-align: justify;
 }
 
-.dp {
-  width: 150px;
-  border-radius: 100px;
-}
-
 .more:hover,
 .more:active,
 .more:focus {
@@ -65,26 +60,6 @@ a.more:hover:after,
 a.more:focus:after,
 a.more:active:after {
   right: 1rem;
-}
-
-@media only screen and (min-width: 767px) {
-  .sect1 {
-    height: 100vh;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .about h3 {
-    text-align: center;
-  }
-  .logo {
-    padding-top: 50px;
-    padding-bottom: 30px;
-  }
-  .learn_more {
-    display: flex;
-    justify-content: center;
-  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -237,6 +212,17 @@ form .radio span.details {
   margin-bottom: 5px;
 }
 .user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-select input {
   height: 45px;
   width: 100%;
   outline: none;
