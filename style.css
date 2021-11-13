@@ -142,6 +142,12 @@ a.more:active:after {
   justify-content: space-between;
   margin: 20px 0 12px 0;
 }
+form h4 {
+  color: red;
+  float: right;
+  margin-bottom: 0cm;
+}
+
 form .user-details .input-box {
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
