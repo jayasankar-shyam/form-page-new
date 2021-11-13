@@ -319,6 +319,10 @@ form .button input:hover {
     margin-bottom: 15px;
     width: 100%;
   }
+  form .user-details .radio {
+    margin-bottom: 15px;
+    width: 100%;
+  }
   form .category {
     width: 100%;
   }
