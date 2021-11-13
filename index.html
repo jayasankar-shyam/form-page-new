@@ -258,7 +258,7 @@
 
               <select name="Branch" id="Branch" required>
                 <option value="none" selected disabled hidden>Select</option>
-                <option value="AI">AI</option>
+                <option value="AI">AD</option>
                 <option value="CE">CE</option>
                 <option value="CS">CS</option>
                 <option value="EC">EC</option>
@@ -290,8 +290,8 @@
                 required
               />
             </div>
-            <div class="input-box">
-              <span class="details">Are you an IEEE member ?</span>
+            <div class="radio">
+              <span class="details">Are you an IEEE member ?</span><br />
               <input
                 type="radio"
                 name="IEEE Member"
@@ -310,7 +310,7 @@
               />No
             </div>
             <div class="input-box" id="dis">
-              <span class="details">If yes</span>
+              <span class="details">Membership ID</span>
               <input
                 type="text"
                 name="Id"
@@ -519,10 +519,10 @@
 
         if (name != "" && email != "" && col_name != "" && number != "") {
           swal({
-            title: "Good job!",
-            text: "You clicked the button!",
+            title: "Thank You!",
+            text: "Your registration is sucessful !!",
             icon: "success",
-            button: "Aww yiss!",
+            button: "Go Back",
           });
         }
       });
