@@ -218,17 +218,17 @@
     </header>
     <!--Form-->
     <div class="container">
-      <h3 class="mb-3"><center>EVENT NAME #TBD</center></h3>
+      <h3 class="mb-cus"><center>EVENT NAME #TBD</center></h3>
       <div class="title">Registration</div>
       <div class="content">
         <form method="post" autocomplete="off" name="trialsheet">
           <div class="user-details">
             <div class="input-box">
               <span class="details"
-                >Full Name
+                >Full Name<span id="red">*</span>
 
-                <h4>*</h4></span
-              >
+                 
+              
               <input
                 id="name"
                 name="Name"
@@ -239,9 +239,9 @@
             </div>
             <div class="input-box">
               <span class="details"
-                >Email
-                <h4>*</h4></span
-              >
+                >Email<span id="red">*</span>
+                 
+              
               <input
                 id="email"
                 type="email"
@@ -252,9 +252,9 @@
             </div>
             <div class="input-box">
               <span class="details"
-                >College Name
-                <h4>*</h4></span
-              >
+                >College Name<span id="red">*</span>
+                 
+              
               <input
                 id="col_name"
                 type="text"
@@ -265,9 +265,9 @@
             </div>
             <div class="input-box">
               <span class="details"
-                >Phone Number
-                <h4>*</h4></span
-              >
+                >Phone Number<span id="red">*</span>
+                 
+              
               <input
                 id="number"
                 type="text"
@@ -278,9 +278,9 @@
             </div>
             <div class="input-select">
               <span class="details"
-                >Branch
-                <h4>*</h4></span
-              >
+                >Branch<span id="red">*</span>
+                 
+              
 
               <select name="Branch" id="Branch" required>
                 <option value="none" selected disabled hidden>Select</option>
@@ -297,9 +297,9 @@
 
             <div class="input-select">
               <span class="details"
-                >Semester
-                <h4>*</h4></span
-              >
+                >Semester<span id="red">*</span>
+                 
+              
 
               <select name="Semester" id="Semester" required>
                 <option value="none" selected disabled hidden>Select</option>
@@ -312,9 +312,9 @@
 
             <div class="radio">
               <span class="details"
-                >Are you an IEEE member ?
-                <h4>*</h4></span
-              ><br />
+                >Are you an IEEE member ?<span id="red">*</span>
+                 
+              <br />
               <input
                 type="radio"
                 name="IEEE Member"
@@ -537,10 +537,11 @@
         var name = $("#name").val();
         var email = $("#email").val();
         var col_name = $("#col_name").val();
-
+        var Branch = $("#Branch").val();
         var number = $("#number").val();
+        var Semester = $("#Semester").val();
 
-        if (name != "" && email != "" && col_name != "" && number != "") {
+        if (name != "" && email != "" && col_name != "" && number != "" && Branch != "none"&& Semester != "none") {
           swal({
             title: "Thank You!",
             text: "Your registration is successful !!",
