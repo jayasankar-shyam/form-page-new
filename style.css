@@ -185,8 +185,7 @@ form .user-details .input-select {
 
 .select-items {
   position: absolute;
-
-  background-color: #eceff0;
+  background-color: #ffffff;
   top: 100%;
   left: 0;
   right: 0;
@@ -234,7 +233,7 @@ form .radio span.details {
   border-radius: 5px;
   padding-left: 15px;
   border: 1px solid #ccc;
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
   transition: all 0.3s ease;
 }
 .user-details .input-select input {
@@ -270,11 +269,6 @@ form .radio span.details {
   border: 1px solid #ccc;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
-}
-
-.user-details .input-box input:focus,
-.user-details .input-box input:valid {
-  border-color: #9b59b6;
 }
 
 form .category {
@@ -336,7 +330,7 @@ form .button input:hover {
     width: 100%;
   }
   form .user-details .radio {
-    margin-bottom: 1px;
+    margin-bottom: 15px;
     width: 100%;
   }
   form .category {
