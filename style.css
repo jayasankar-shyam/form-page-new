@@ -135,7 +135,9 @@ a.more:active:after {
   font-size: 17px;
   margin-bottom: 0cm;
 }
-
+#grey {
+  color: #777575;
+}
 form .user-details .input-box {
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
@@ -159,30 +161,13 @@ form .user-details .input-select {
   display: none; /*hide original SELECT element: */
 }
 
-.select-selected {
-  background-color: rgb(255, 255, 255);
-}
-.select-selected:after {
-  position: absolute;
-  content: "";
-  top: 14px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
-}
-
-.select-selected.select-arrow-active:after {
-  border-color: transparent transparent rgb(0, 0, 0) transparent;
-  top: 7px;
-}
 .select-items div,
 .select-selected {
   color: #000000;
   padding: 8px 16px;
   border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  border-color: rgb(204, 204, 204);
+  border-radius: 5px;
   cursor: pointer;
 }
 

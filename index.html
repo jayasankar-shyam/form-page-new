@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Event_name #TBD</title>
+    <title>Hello Arduino</title>
 
     <!--Favicon-->
     <link
@@ -251,6 +251,19 @@
                 required
               />
             </div>
+            
+            <div class="input-box">
+              <span class="details"
+                >Phone Number<span id="red">*</span>
+              
+              <input
+                id="number"
+                type="text"
+                name="Phone"
+                placeholder="Enter your number"
+                required
+              />
+            </div>
             <div class="input-box">
               <span class="details"
                 >College Name<span id="red">*</span>
@@ -264,24 +277,12 @@
                 required
               />
             </div>
-            <div class="input-box">
-              <span class="details"
-                >Phone Number<span id="red">*</span>
-                 
-              
-              <input
-                id="number"
-                type="text"
-                name="Phone"
-                placeholder="Enter your number"
-                required
-              />
-            </div>
+            
             <div class="input-select">
               <span class="details"
                 >Branch<span id="red">*</span>
                  
-              
+       
 
               <select name="Branch" id="Branch" required>
                 <option disabled value="" selected>Select</option>
@@ -303,7 +304,7 @@
               
 
               <select name="Semester" id="Semester" required>
-                <option disabled value="" selected >Select</option>
+                <option disabled value="" selected ><span id="grey">Select</span></option>
                 <option value="S1">S1</option>
                 <option value="S3">S3</option>
                 <option value="S5">S5</option>
