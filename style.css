@@ -89,6 +89,7 @@ a.more:active:after {
 }
 .mb-cus {
   font-size: 30px;
+  font-weight: bolder;
   font-family: "DM Sans", sans-serif;
 }
 .description {
@@ -99,11 +100,12 @@ a.more:active:after {
 
 .container {
   max-width: 700px;
-  margin-top: 150px;
+  margin-top: 100px;
   width: 100%;
   background-color: #fff;
   padding: 25px 30px;
   border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 .container .title {
   font-size: 20px;
@@ -156,6 +158,7 @@ form .user-details .input-select {
 .input-select select {
   display: none; /*hide original SELECT element: */
 }
+
 .select-selected {
   background-color: rgb(255, 255, 255);
 }
@@ -205,24 +208,28 @@ form .input-box span.details {
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
+  color: #777575;
   font-family: "DM Sans", sans-serif;
 }
 form .input-select span.details {
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
+  color: #777575;
   font-family: "DM Sans", sans-serif;
 }
 form .input-box2 span.details {
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
+  color: #777575;
   font-family: "DM Sans", sans-serif;
 }
 form .radio span.details {
   display: block;
   font-weight: 500;
   font-family: "DM Sans", sans-serif;
+  color: #777575;
   margin-bottom: 5px;
 }
 .user-details .input-box input {
